@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.8"
+    android:background="@android:color/holo_blue_dark">
+
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/globe"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ERLIO"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BERBANGSA DAN BERBAHASA"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Muh Tantowi Lathif"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <TextView
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANDROID DEVELOPER"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:id="@+id/textView2" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ANDROID DEVELOPER"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:id="@+id/textView2" />
+
+    </RelativeLayout>
+</LinearLayout>
